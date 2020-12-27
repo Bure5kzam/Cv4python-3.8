@@ -21,5 +21,7 @@ while(True):
     edge = cv2.Canny(frame,50,150)
     cv2.imshow("frame", frame)
     cv2.imshow("edge", edge)
+
+    #27 esc, 13 enter, 9 tab else : cv2.waitKeyEx
     if cv2.waitKey(20) == 27:
         break;
